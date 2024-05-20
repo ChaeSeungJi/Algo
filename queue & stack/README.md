@@ -66,6 +66,7 @@ print(len(queue) == 0)  # isEmpty, 출력: False
 
 # 큐에 있는 요소의 개수
 print(len(queue))  # size, 출력: 1
+```
 
 
 <hr>
@@ -107,7 +108,6 @@ while len(circle):
 
 # 결과를 형식에 맞게 출력
 print("<", ", ".join(result), ">", sep='')
-
 
 2. 해시 맵 (Hash Map)
 해시 맵은 키와 값을 연결하는 데이터 구조입니다.
@@ -167,6 +167,7 @@ for i in result:
 재귀 호출이 많아지면 스택 오버플로우가 발생할 수 있습니다.
 반복문에 비해 성능이 떨어질 수 있습니다.
 백준 2447번 - 별 찍기
+```
 def draw_stars(n):
     if n == 1:
         return ["*"]  # 기본 패턴: 크기 1일 때의 별 하나
@@ -184,6 +185,7 @@ def draw_stars(n):
         result.append(s * 3)  # 마지막 줄: 작은 패턴을 가로로 세 번
 
     return result
+```
 
 # 입력 받기
 n = int(input())
