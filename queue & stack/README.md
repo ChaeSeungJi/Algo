@@ -27,7 +27,7 @@ for _ in range(K):
 
 # 스택에 남아있는 모든 수를 더해서 출력
 print(sum(stack))
-
+```
 
 # 큐 (Queue)
 
