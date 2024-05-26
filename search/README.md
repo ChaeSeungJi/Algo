@@ -10,14 +10,16 @@
 - 출력: 필요한 최소 동전의 개수.
 
 
-```Sort `coins` in descending order.
+```
+Sort `coins` in descending order.
 Initialize `coin_count` to 0.
 For each coin in `coins`:
    Calculate how many times the current coin fits into `amount`.
    Reduce `amount` by the total value taken by the current coin.
    Increment `coin_count` by the number of coins used.
 If `amount` is 0 after the loop, return `coin_count`.
-If not, return -1 (not possible to make the amount).'''
+If not, return -1 (not possible to make the amount).
+```
 
 # 브루트포스 알고리즘 (Brute Force Algorithm)
 
