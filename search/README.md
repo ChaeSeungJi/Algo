@@ -32,7 +32,8 @@ If not, return -1 (not possible to make the amount).
 - 입력: 배열 arr.
 - 출력: 배열 arr의 모든 순열.
 
-```Initialize `perm_list` to an empty list.
+```
+Initialize `perm_list` to an empty list.
 Define a function `permute` with parameters `current_permutation` and `elements`:
    a. If `current_permutation` length equals `arr` length:
       - Append `current_permutation` to `perm_list`.
@@ -42,4 +43,5 @@ Define a function `permute` with parameters `current_permutation` and `elements`
         ii. Call `permute` with element added to `current_permutation`.
         iii. Restore element to `elements`.
 Call `permute` with an empty list and `arr`.
-Return `perm_list`.```
+Return `perm_list`.
+```
