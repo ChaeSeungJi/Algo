@@ -17,7 +17,7 @@ For each coin in `coins`:
    Reduce `amount` by the total value taken by the current coin.
    Increment `coin_count` by the number of coins used.
 If `amount` is 0 after the loop, return `coin_count`.
-If not, return -1 (not possible to make the amount).```
+If not, return -1 (not possible to make the amount).'''
 
 # 브루트포스 알고리즘 (Brute Force Algorithm)
 
